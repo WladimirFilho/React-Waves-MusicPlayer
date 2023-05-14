@@ -40,6 +40,7 @@ const Player = ({currentSong, isPlaying, setIsPlaying, audioRef, setSongInfo, so
                            type="range"/>
                     <p>{getTime(songInfo.duration)}</p>
                 </div>
+                
                 <div className="play-control">
                     <FontAwesomeIcon
                         className='skip-back'
